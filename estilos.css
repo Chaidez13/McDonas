@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ffffed;
+}
+.maxw{
+    margin: 0 auto;
+    max-width: 1500px;
+    display: flex;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #83b582;
+}
+.logo{
+    width: 25%;
+    font-size: 40px;
+    margin: 0;
+    color: #3c4245;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.menu{
+    padding-top: 8px;
+    padding-right: 20px;
+    width: 75%;
+	text-align: right;
+	position: relative;
+}
+.header .menu ul li{
+	display: inline-block;
+}
+.header .menu ul li:not(:first-child){
+	margin-left: 20px;
+}
+.header .menu a{
+	color: #3c4245;	
+    text-decoration: none;
+    font-size: 18px;
+}
+.header .menu a:hover{
+    border-bottom: 1px solid #f0dd92;
+    padding-bottom: 2px; 
+    color: #f0dd92
+}
+.div-content{
+    margin: 0 auto;
+    max-width: 1500px;
+}
+.content{
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+    height: 500px;
+    width: 55%;
+    background-color: #d6e4aa;
+}
+.product{
+    padding: 5px;
+    display: flex;
+    height: 150px;
+    background-color: red;
+}
+.product h3{
+    margin: 0;
+}
+.product img{
+    width: 150px;
+    padding: 0 20px;
+}
