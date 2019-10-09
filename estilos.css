@@ -158,7 +158,7 @@ body{
         margin: 10px;
     }
     .map{
-        width: 420px;
+        width: 90%;
         padding: 10px;
     }
     .subslider p{
@@ -203,5 +203,8 @@ body{
     }
     .header input[type="checkbox"]:checked ~.menu{
         display: inline;
+    }
+    .social-networks{
+        right: 5px;
     }
 }
