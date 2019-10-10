@@ -174,9 +174,13 @@ body{
         flex-direction: column;
     }
     .menu{
-        width: 100%;
+        width: 90%;
         display: none;
         text-align: center;
+    }
+    .menu li{
+        width: 90%;
+        padding-bottom: 10px;
     }
     .subslider p{
         font-size: 25px;
@@ -202,7 +206,7 @@ body{
         opacity: 0;
     }
     .header input[type="checkbox"]:checked ~.menu{
-        display: inline;
+        display: flex;
     }
     .social-networks{
         right: 5px;
